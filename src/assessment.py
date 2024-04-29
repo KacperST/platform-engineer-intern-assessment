@@ -11,7 +11,7 @@ class Assessment:
 
     def __init__(self, input_filename: str, output_filename: str) -> None:
         """
-        Constructor for the Assessment class. It initializes the class with attributes
+        Constructor for the Assessment class. It initializes the class with attributes.
 
         input_filename (str): input file name. It should be in root directory.
         output_filename (str): output file name. It wil be created in root directory.
@@ -33,7 +33,7 @@ class Assessment:
         """
         A generator function to read the input file line by line.
         Generator is used to protect program from memory overflow.
-        Each line is stripped from whitespaces and newlines sings.
+        Each line is stripped newlines sings.
 
         Yields:
             line (str): a line from the input file.
@@ -84,7 +84,7 @@ class Assessment:
     def update_most_popular(self, artist: str, song_name: str) -> None:
         """
         A function to update the most_popular dictionary. It checks if the artist is already in the most_popular dictionary.
-        If not it adds the artist and song name. If artist is already in the dictionary, it checks if the current song is more
+        If not, it adds the artist and song name. If artist is already in the dictionary, it checks if the current song is more
         popular than the previous most popular song. If yes, it updates the most popular song for the artist.
 
         Args:
@@ -100,7 +100,7 @@ class Assessment:
     def update_song_counter(self, artist: str, song_name: str) -> None:
         """
         A function to update the song_counter dictionary. It checks if the artist is already in the dictionary.
-        If not it adds the artist and song name. If artist is already in the dictionary, it checks if the song is already
+        If not, it adds the artist and song name. If artist is already in the dictionary, it checks if the song is already
         in the dictionary. If not it adds the song and sets the count to 0. It then increments the count for the song.
 
         Args:
