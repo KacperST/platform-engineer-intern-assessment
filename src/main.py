@@ -1,4 +1,4 @@
-from assessment import Assessment
+from src.assessment import Assessment
 from pathlib import Path
 import os
 
