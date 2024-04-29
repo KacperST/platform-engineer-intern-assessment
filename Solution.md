@@ -36,6 +36,7 @@ Dockerfile by default runs `main.py` but if you commend line with `CMD` and unco
 
 ## Tests
 Tests are built with `pytest` and `unittests` library. I also installed `coverage` to check program coverage and its result are shown on image below
+
 ![tests](./test_coverage.PNG)
 
 ## Time complexity
