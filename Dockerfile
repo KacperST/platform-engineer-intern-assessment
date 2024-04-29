@@ -4,6 +4,7 @@ FROM python:3.10-slim-bullseye
 # Set the working directory
 WORKDIR /app
 
+# Copy the setup file
 COPY setup.py .
 
 # Install dependencies for testing

@@ -1,5 +1,9 @@
 # My Solution of the problem
 
+## How to run project
+
+To run the project run command `docker-compose up --build` in the directory where `Dockerfile` and `docker-compose.yaml` files are located (root directory). In Dockerfile you can comment the line with CMD and uncommect ENTRPOINT to run the tests using docker containers.
+
 ## Project structure
 ```
 ├── docker-compose.yaml               -- docker compose file
