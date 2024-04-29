@@ -17,4 +17,4 @@ COPY . .
 CMD ["python", "src/main.py"]
 
 # Uncomment the following line to run the test
-# CMD ["./entrypoint.sh"]
+# ENTRYPOINT ["./entrypoint.sh"]
