@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='platform-engineer-intern-assessment',
-    version='0.1',
+    name="platform-engineer-intern-assessment",
+    version="0.1",
     packages=find_packages(),
     install_requires=[
-        'pytest',
-        'coverage',
+        "pytest",
+        "coverage",
     ],
 )
