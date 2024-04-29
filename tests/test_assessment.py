@@ -69,9 +69,10 @@ class TestAssessment:
         
     def test_if_init_recreates_output_file(self, input_filename, output_filename, random_output):
         Assessment(input_filename, output_filename)
-        assert os.path.exists("output.txt")
-        with open("output.txt", "r") as file:
+        assert os.path.exists(output_filename)
+        with open(output_filename, "r") as file:
             assert file.read() == ""
+            
     def test_read_file_wrong_input_filename(self, wrong_input_filename, output_filename, random_output):
         assessment = Assessment(wrong_input_filename, output_filename)
         with pytest.raises(FileNotFoundError):
