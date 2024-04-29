@@ -1,0 +1,10 @@
+record:Taylor Swift,Cruel Summer
+record:Taylor Swift,Cruel Summer
+record:Taylor Swift,Blank Space
+record:Michael Jackson,Beat it
+record:Taylor Swift,Cruel Summer
+record:Taylor Swift,Blank Space
+record:Michael Jackson,Beat it
+record:Michael Jackson,Smooth Criminal
+top:Taylor Swift
+top:Michael Jackson
