@@ -1,5 +1,9 @@
 # My Solution of the problem
 
+## Bug
+
+I have already emailed the assingment but I have accidentally mistaken the word "Assessment" with "Assignment", sorry for that.
+
 ## How to run project
 
 To run the project run command `docker-compose up --build` in the directory where `Dockerfile` and `docker-compose.yaml` files are located (root directory). In Dockerfile you can comment the line with CMD and uncommect ENTRPOINT to run the tests using docker containers. In case of PermissionError add needed permisions to .pytest_cache (`sudo chmod -R 777 .pytest_cache` works fine).
